@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+  margin: 0;
+  background-color: aliceblue;
+}
+
+.Navbar {
+  font-size: 6rem;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  height: 14rem;
+  cursor: pointer;
+}
+.icon_name {
+  font-size: 3rem;
+  color: grey;
+}
+.active {
+  color: black;
+}
+.icons {
+  width: calc(100vw / 3);
+  text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+  .Navbar {
+    font-size: 6rem;
+  }
+  .icon_name {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .Navbar {
+    font-size: 4rem;
+  }
+  .icon_name {
+    font-size: 2rem;
+  }
+}
